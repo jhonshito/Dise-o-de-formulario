@@ -1,0 +1,231 @@
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textos{
+    width: 40%;
+}
+
+.contenedor-texto{
+    margin-top: 130px;
+    /* margin-left: 30px; */
+}
+
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.parrafo{
+    font-size: 16px;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+#form{
+    width: 50%;
+}
+
+.formCabeza{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: hsl(248, 32%, 49%);
+    margin-top: 40px;
+}
+
+.spanOne{
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.spanTwo{
+    color: hsl(246, 25%, 77%);
+}
+
+#formulario{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputOne{
+    width: 85%;
+    padding: 14px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-indent: 20px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.inputTwo{
+    width: 85%;
+    padding: 14px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-indent: 20px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.inputThree{
+    width: 85%;
+    padding: 14px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-indent: 20px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.inputFour{
+    width: 85%;
+    padding: 14px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-indent: 20px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.boton{
+    margin-top: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+article{
+    width: 100%;
+    display: flex;
+    color: black;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.textoOne{
+    color: hsl(246, 25%, 77%);
+    margin-right: 6px;
+}
+
+.textoTwo{
+    color: hsl(0, 100%, 74%);
+}
+
+
+
+@media (max-width: 600px) {
+    #main{
+        display: block;
+        width: 100%;
+    }
+
+    #textos{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    .formCabeza{
+        width: 90%;
+        display: block;
+        text-align: center;
+    }
+
+    #formulario{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    article{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1046px) {
+    #main{
+        display: block;
+        width: 100%;
+    }
+
+    #textos{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    .formCabeza{
+        width: 500px;
+    }
+
+    #formulario{
+        width: 500px;
+        margin-bottom: 50px;
+    }
+    
+}
+  
